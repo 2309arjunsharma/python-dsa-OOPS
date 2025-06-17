@@ -6,23 +6,32 @@ A class is a blueprint for creating objects. Attributes, methods
 ## Methods---
 ## 1.Inheritance
 Inheritance is a fundamental concept in OOPS that allows a class to inherit attributes and methods from another class. 
+
 ## 2.Polymorphism
 Polymorphism is a core concept in OOPS that allows objects of different classes to be treated as objects of a common superclass. It provides a way to perform a single action in different forms.
 Polymorphism is typically achieved through method overriding and interfaces
+
 ## 3.Method Overriding
 Method overriding allows a child class to provide a specific implementation of a method that is already defined in its parent class
+
 ## 4. Polymorphism with Abstract Base Classes
 Abstract Base Classes (ABCs) are used to defie common methods for a group of related objects. They can enforce that derived classes implement particular methods, promoting consistency across different implementations.
+
 ## 5.Conclusion of Polymorphism
 Polymorphism is a powerful feature of OOPS that allows for flexibility and integration in code design. It enables a single function to handle objects of different classes, each with its own implementation of a method. By understanding and applying polymorphism, you can create more extensible and maintainable object-oriented programs.
+
 ## 6.Encapsulation and Abstraction
 Encapsulation and abstraction are two fundamental principles of OOPS that help in designing robust, maintainable, and reusable code. Encapsulation involves bundling data and methods that operate on the data within a single unit, while abstraction involves hiding complex implementation details and exposing only the necessary features.
+
 ## 7. Encapsulation
 Encapsulation is the concept of wrapping data (variables) and methods(functions) together as a single unit. It restricts direct access to some of the object's components, which is a means of preventing accidental interference and misuse of data
+
 ## 8.Abstraction
 Abstraction is the concept of hiding the complex implementation details and showing only the necessary features of an object. This helps in reducing programming complexity and effort.
+
 ## 9.Magic Methods
 Magic methods in Python, also known as dunder methods(double underscore methods), are special methods that start and end with double underscores(like __init__). These methods enable you to define the behaviour of objects for built-in operations, such as arithmetic operations,comparisions, and more
+
 ## 10.Magic Methods
 Magic methods are predefined methods in python that you can override to change the behavior of your objects.
 Some common magic methods include:
@@ -32,3 +41,17 @@ Some common magic methods include:
 4. __len__ : Returns the length of an object.
 5. __getitem__ : Gets an item from a container.
 6. __setitem__ : Sets an item in a container.
+
+## 11.Operator Overloading
+Operator overloading allows you to define the behavior of operators(+,-,*,etc.) for custom objects. You achieve this by overriding specific magic methods in your class.
+
+## 12.Common Operator Overloading Magic methods
+1. "___add___" (self,other): Adds two objects using the __+ operator__.
+2. "___sub___" (self,other): Subtracts two objects using the __- operator__.
+3. "___mul___" (self,other): Multiplies two objects using the __* operator__
+4. "___truediv___" (self,other): Divides two objects using __/ operator__.
+5. ""___eq___"" (self,other): Checks if two objects are equal using the __== operator__.
+6. "___lt___" (self,other): Checks if one objects is less than anothe using the __> operator__.
+
+## 13 Custom exception (Raise and Throw an exception)
+
